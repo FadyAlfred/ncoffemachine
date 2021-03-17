@@ -1,0 +1,56 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres
+    environment:
+      - POSTGRES_DB=ncoffeemachine
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=mysecretpassword
+    networks:
+      - ncoffeenetwork
+
+  migration:
+    image: app
+    build: .
+    command: python manage.py migrate
+    volumes:
+      - .:/app
+    networks:
+      - ncoffeenetwork
+    links:
+      - postgres
+    depends_on:
+      - postgres
+
+  data:
+    image: app
+    command: >
+      bash -c "python manage.py createsuperuser --no-input --username=$DJANGO_SUPERUSER_USERNAME --email $DJANGO_SUPERUSER_EMAIL  &&
+      python manage.py loaddata store/fixtures/coffeemachines.json && python manage.py loaddata store/fixtures/coffeepods.json"
+    volumes:
+      - .:/app
+    networks:
+      - ncoffeenetwork
+    links:
+      - postgres
+    depends_on:
+      - migration
+
+  web:
+    image: app
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    networks:
+      - ncoffeenetwork
+    links:
+      - postgres
+    ports:
+      - "8000:8000"
+    depends_on:
+      - data
+
+networks:
+  ncoffeenetwork:
+    driver: bridge
