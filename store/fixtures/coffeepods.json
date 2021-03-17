@@ -1,0 +1,264 @@
+[
+    {
+    "model": "store.coffeepod",
+    "pk": 1,
+    "fields": {
+      "sku": "CP001",
+      "size": 1,
+      "type": "S",
+      "flavor": "V"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 2,
+    "fields": {
+      "sku": "CP003",
+      "size": 3,
+      "type": "S",
+      "flavor": "V"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 3,
+    "fields": {
+      "sku": "CP011",
+      "size": 1,
+      "type": "S",
+      "flavor": "C"
+    }
+  }
+  ,
+  {
+    "model": "store.coffeepod",
+    "pk": 4,
+    "fields": {
+      "sku": "CP013",
+      "size": 3,
+      "type": "S",
+      "flavor": "C"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 5,
+    "fields": {
+      "sku": "CP021",
+      "size": 1,
+      "type": "S",
+      "flavor": "P"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 6,
+    "fields": {
+      "sku": "CP023",
+      "size": 3,
+      "type": "S",
+      "flavor": "P"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 7,
+    "fields": {
+      "sku": "CP031",
+      "size": 1,
+      "type": "S",
+      "flavor": "M"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 8,
+    "fields": {
+      "sku": "CP033",
+      "size": 3,
+      "type": "S",
+      "flavor": "M"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 9,
+    "fields": {
+      "sku": "CP041",
+      "size": 1,
+      "type": "S",
+      "flavor": "H"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 10,
+    "fields": {
+      "sku": "CP043",
+      "size": 3,
+      "type": "S",
+      "flavor": "H"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 11,
+    "fields": {
+      "sku": "CP101",
+      "size": 1,
+      "type": "L",
+      "flavor": "V"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 12,
+    "fields": {
+      "sku": "CP103",
+      "size": 3,
+      "type": "L",
+      "flavor": "V"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 13,
+    "fields": {
+      "sku": "CP111",
+      "size": 1,
+      "type": "L",
+      "flavor": "C"
+    }
+  }
+  ,
+  {
+    "model": "store.coffeepod",
+    "pk": 14,
+    "fields": {
+      "sku": "CP113",
+      "size": 3,
+      "type": "L",
+      "flavor": "C"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 15,
+    "fields": {
+      "sku": "CP121",
+      "size": 1,
+      "type": "L",
+      "flavor": "P"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 16,
+    "fields": {
+      "sku": "CP123",
+      "size": 3,
+      "type": "L",
+      "flavor": "P"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 17,
+    "fields": {
+      "sku": "CP131",
+      "size": 1,
+      "type": "L",
+      "flavor": "M"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 18,
+    "fields": {
+      "sku": "CP133",
+      "size": 3,
+      "type": "L",
+      "flavor": "M"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 19,
+    "fields": {
+      "sku": "CP141",
+      "size": 1,
+      "type": "L",
+      "flavor": "H"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 20,
+    "fields": {
+      "sku": "CP143",
+      "size": 3,
+      "type": "L",
+      "flavor": "H"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 21,
+    "fields": {
+      "sku": "EP003",
+      "size": 3,
+      "type": "E",
+      "flavor": "V"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 22,
+    "fields": {
+      "sku": "EP005",
+      "size": 5,
+      "type": "E",
+      "flavor": "V"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 23,
+    "fields": {
+      "sku": "EP007",
+      "size": 7,
+      "type": "E",
+      "flavor": "V"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 24,
+    "fields": {
+      "sku": "EP013",
+      "size": 3,
+      "type": "E",
+      "flavor": "C"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 25,
+    "fields": {
+      "sku": "EP015",
+      "size": 5,
+      "type": "E",
+      "flavor": "C"
+    }
+  },
+  {
+    "model": "store.coffeepod",
+    "pk": 26,
+    "fields": {
+      "sku": "EP017",
+      "size": 7,
+      "type": "E",
+      "flavor": "C"
+    }
+  }
+]

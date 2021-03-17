@@ -1,0 +1,92 @@
+[
+  {
+    "model": "store.coffeemachine",
+    "pk": 1,
+    "fields": {
+      "sku": "CM001",
+      "water_line_compatible": false,
+      "type": "S",
+      "edition": "B"
+    }
+  },
+  {
+    "model": "store.coffeemachine",
+    "pk": 2,
+    "fields": {
+      "sku": "CM002",
+      "water_line_compatible": false,
+      "type": "S",
+      "edition": "P"
+    }
+  },
+  {
+    "model": "store.coffeemachine",
+    "pk": 3,
+    "fields": {
+      "sku": "CM003",
+      "water_line_compatible": true,
+      "type": "S",
+      "edition": "D"
+    }
+  },
+  {
+    "model": "store.coffeemachine",
+    "pk": 4,
+    "fields": {
+      "sku": "CM101",
+      "water_line_compatible": false,
+      "type": "L",
+      "edition": "B"
+    }
+  },
+  {
+    "model": "store.coffeemachine",
+    "pk": 5,
+    "fields": {
+      "sku": "CM102",
+      "water_line_compatible": true,
+      "type": "L",
+      "edition": "P"
+    }
+  },
+  {
+    "model": "store.coffeemachine",
+    "pk": 6,
+    "fields": {
+      "sku": "CM103",
+      "water_line_compatible": true,
+      "type": "L",
+      "edition": "D"
+    }
+  },
+  {
+    "model": "store.coffeemachine",
+    "pk": 7,
+    "fields": {
+      "sku": "EM001",
+      "water_line_compatible": false,
+      "type": "E",
+      "edition": "B"
+    }
+  },
+  {
+    "model": "store.coffeemachine",
+    "pk": 8,
+    "fields": {
+      "sku": "EM002",
+      "water_line_compatible": false,
+      "type": "E",
+      "edition": "P"
+    }
+  },
+  {
+    "model": "store.coffeemachine",
+    "pk": 9,
+    "fields": {
+      "sku": "EM003",
+      "water_line_compatible": true,
+      "type": "E",
+      "edition": "D"
+    }
+  }
+]
